@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.himg{
+    height: 100vh;
+    width: 98.9vw;
+    position: absolute;
+}
