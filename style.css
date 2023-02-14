@@ -1,14 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.himg{
+.himg {
     height: 100vh;
     width: 98.9vw;
     position: absolute;
 }
-.navbar-brand{
+
+.navbar-brand {
     margin-left: 20px;
     font-size: 35px;
     font-weight: bold;
@@ -16,13 +17,21 @@
     color: white;
 }
 
-.container-fluid{
-    background-color: blue;
-    height: 100px;
+.container-fluid {
+    background: linear-gradient(to right, rgb(19, 19, 112), rgb(208, 118, 133));
+    height: 100%;
 }
-.nav-link{
+
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
     color: white;
-}
+    font-size: large;
+    font-weight: bold;
 .para{
    
     display: block;
@@ -63,4 +72,5 @@ h1{
    text-align: center;
    margin-top: 100px;
    font: italic small-caps bold 100px/2 cursive;
+ 
 }
