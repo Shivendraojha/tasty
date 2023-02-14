@@ -18,6 +18,7 @@
 
 .container-fluid{
     background-color: blue;
+    height: 100%;
 }
 .nav-link{
     color: white;
