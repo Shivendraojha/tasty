@@ -31,6 +31,7 @@
     font-size: 100px;
     margin-top: 50px;
     margin-left: 50px;
+    font: italic small-caps bold 100px/2 cursive;
 }
 .chaiheader{
     height: 900px;
@@ -48,7 +49,7 @@
     border: 5px solid black;
     border-radius: 20px;
     width: 40vw;
-    margin-top: 150px;
+   
     margin-left: 5vw;
     height: 600px;
     background-color: rgba(245, 105, 105, 0.722);
