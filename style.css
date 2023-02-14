@@ -22,3 +22,12 @@
 .nav-link{
     color: white;
 }
+.para{
+   
+    display: block;
+    position: relative;
+    color: white;
+    font-size: 100px;
+    margin-top: 20px;
+
+}
