@@ -8,3 +8,17 @@
     width: 98.9vw;
     position: absolute;
 }
+.navbar-brand{
+    margin-left: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.container-fluid{
+    background-color: blue;
+}
+.nav-link{
+    color: white;
+}
