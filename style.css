@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    background-color: rgb(195, 205, 190);
+}
 .himg {
     height: 100vh;
     width: 98.9vw;
@@ -31,9 +33,11 @@
 .navbar-expand-lg .navbar-nav .nav-link {
     color: white;
     font-size: large;
-    font-weight: bold;}
-.para{
-   
+    font-weight: bold;
+}
+
+.para {
+
     display: block;
     position: relative;
     color: white;
@@ -42,38 +46,50 @@
     margin-left: 50px;
     font: italic small-caps bold 100px/2 cursive;
 }
-.chaiheader{
-    height: 900px;
-    width: 98.9vw;
-     
+
+
+.chaiheader {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding:20px;
 }
-.chai2{
-    margin-top: 100px;
-    height: 700px;
-    width: 50vw;
-   
-    float: right;
-}
-.cvdo{
+.chaiheader img{
+    height: 600px;
     border: 5px solid black;
     border-radius: 20px;
-    width: 40vw;
-   
-    margin-left: 5vw;
+}
+.chai1 .chai2 .chai3{
+    height: 800px;
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 400px;
+}
+.chai2 li{
+    font-size: 20px;
+    list-style: none;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+.chai3 img{
+    transform: rotateY(180deg);
+}
+.cvdo {
+    border: 5px solid black;
+    border-radius: 20px;
     height: 600px;
-    background-color: rgba(245, 105, 105, 0.722);
-    
 }
-h1{
+
+h1 {
     font-size: 70px;
-    
     color: red;
-   position: relative;
-   text-align: center;
-   margin-top: 100px;
-   font: italic small-caps bold 100px/2 cursive;
- 
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    font: italic small-caps bold 100px/2 cursive;
+
 }
+ 
 .chai1{
     margin-top: 90px;
     margin-left: 50px;
@@ -114,3 +130,4 @@ margin-left: 37%;
     text-decoration: none;
     color: white;
 }
+ 
