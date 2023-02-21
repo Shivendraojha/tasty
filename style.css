@@ -89,4 +89,45 @@ h1 {
     font: italic small-caps bold 100px/2 cursive;
 
 }
-
+ 
+.chai1{
+    margin-top: 90px;
+    margin-left: 50px;
+    font-size: 100px;
+    display: inline-block;
+}
+.omenu{
+height: 1800px;
+}
+.mfood{
+    width: 60%;
+    
+   border-radius: 20%;
+    margin-left: 20%;
+    margin-right: auto;
+}
+.menus{
+    position: absolute;
+    margin-top: -400px;
+margin-left: 37%;
+    color:#af75b49e;
+}
+.mlist{
+    margin-top: 150px;
+    display: flex;
+}
+.mlist li{
+    
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 10px 25px ;
+    background-color: brown;
+    
+    border-radius: 10px;
+}
+.mlist li a{
+    text-decoration: none;
+    color: white;
+}
+ 
